@@ -1,5 +1,29 @@
 @import "tailwindcss";
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --text-color: #000000;
+  --bg-color: #ffffff;
+  --hover-color: #fcf4ff;
+  --accent-color: #11001F;
+}
+
+.dark {
+  --text-color: #ffffff;
+  --bg-color: #11001F;
+  --hover-color: #2a004a;
+  --accent-color: #fcf4ff;
+}
+
+body {
+  color: var(--text-color);
+  background-color: var(--bg-color);
+  transition: color 0.3s, background-color 0.3s;
+}
+
 * {
   font-family: Outfit;
 }
