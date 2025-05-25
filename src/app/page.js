@@ -10,31 +10,53 @@ import { useEffect, useState } from "react";
 
 export default function Home() {
   const [isDarkMode, setIsDarkMode] = useState(false);
+  const [mounted, setMounted] = useState(false);
 
+  // Force light mode as default to prevent flash
   useEffect(() => {
-    // Initial theme detection on mount
-    if (
-      localStorage.theme === "dark" ||
-      (!("theme" in localStorage) &&
-        window.matchMedia("(prefers-color-scheme: dark)").matches)
-    ) {
-      setIsDarkMode(true);
-    } else {
-      setIsDarkMode(false);
+    // Set white background immediately to prevent black flash
+    document.documentElement.style.backgroundColor = "#ffffff";
+    document.documentElement.style.color = "#000000";
+
+    setMounted(true);
+
+    // Use try-catch to handle potential localStorage errors
+    try {
+      // Only set dark mode if explicitly saved
+      const savedTheme = localStorage.getItem("theme");
+      if (savedTheme === "dark") {
+        setIsDarkMode(true);
+      } else {
+        setIsDarkMode(false);
+      }
+    } catch (e) {
+      setIsDarkMode(false); // Default to light mode if error
     }
   }, []);
 
   useEffect(() => {
+    if (!mounted) return;
+
+    // Disable transitions temporarily
+    document.documentElement.classList.add("disable-transitions");
+
     if (isDarkMode) {
       document.documentElement.classList.add("dark");
       document.documentElement.style.colorScheme = "dark";
+      document.documentElement.style.backgroundColor = "#11001F";
       localStorage.theme = "dark";
     } else {
       document.documentElement.classList.remove("dark");
       document.documentElement.style.colorScheme = "light";
-      localStorage.theme = "";
+      document.documentElement.style.backgroundColor = "#ffffff";
+      localStorage.theme = "light"; // Explicitly save as light
     }
-  }, [isDarkMode]);
+
+    // Re-enable transitions after theme is applied
+    setTimeout(() => {
+      document.documentElement.classList.remove("disable-transitions");
+    }, 100);
+  }, [isDarkMode, mounted]);
 
   return (
     <>
