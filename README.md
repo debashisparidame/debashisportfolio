@@ -10,7 +10,7 @@ A modern, responsive portfolio website built with Next.js and TailwindCSS featur
 
 <div align="center">
   <img src="https://github.com/debashisparidame/debashisportfolio/blob/main/public/debashisportfolio%201.png" alt="Home Page" width="80%" />
-  <p><em>Home Page with Dark Mode</em></p>
+  <p><em>Home Page</em></p>
   
   <img src="https://github.com/debashisparidame/debashisportfolio/blob/main/public/debashisportfolio%202.png" alt="About Section" width="80%" />
   <p><em>About Section</em></p>
@@ -19,7 +19,7 @@ A modern, responsive portfolio website built with Next.js and TailwindCSS featur
   <p><em>Services Section</em></p>
   
   <img src="https://github.com/debashisparidame/debashisportfolio/blob/main/public/debashisportfolio%204.png" alt="Portfolio Section" width="80%" />
-  <p><em>Portfolio Section</em></p>
+  <p><em>Work Section</em></p>
   
   <img src="https://github.com/debashisparidame/debashisportfolio/blob/main/public/debashisportfolio%205.png" alt="Contact Section" width="80%" />
   <p><em>Contact Section</em></p>
@@ -80,4 +80,15 @@ A modern, responsive portfolio website built with Next.js and TailwindCSS featur
 
 ## 📧 Contact
 
-For inquiries or collaborations, reach out via the contact form on the website or email me at [your-email@example.com](mailto:your-email@example.com).
+For inquiries or collaborations, reach out via the contact form on the website or through:
+
+- 📩 Email: [debashisparidaofficial@gmail.com](mailto:debashisparidaofficial@gmail.com)
+- 💼 LinkedIn: [linkedin.com/in/debashisparidame](https://www.linkedin.com/in/debashisparidame/)
+
+---
+
+## 🙏 Thank You
+
+Thank you for visiting my portfolio repository! I appreciate your interest in my work and would love to connect with you. Feel free to reach out for collaborations, opportunities, or just to say hello!
+
+Built with ❤️ by Debashis Parida
