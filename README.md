@@ -6,6 +6,25 @@
 
 A modern, responsive portfolio website built with Next.js and TailwindCSS featuring a sleek design, dark/light mode, and smooth animations.
 
+## 📸 Screenshots
+
+<div align="center">
+  <img src="https://github.com/debashisparidame/debashisportfolio/blob/main/public/debashisportfolio%201.png" alt="Home Page" width="80%" />
+  <p><em>Home Page with Dark Mode</em></p>
+  
+  <img src="https://github.com/debashisparidame/debashisportfolio/blob/main/public/debashisportfolio%202.png" alt="About Section" width="80%" />
+  <p><em>About Section</em></p>
+  
+  <img src="https://github.com/debashisparidame/debashisportfolio/blob/main/public/debashisportfolio%203.png" alt="Services Section" width="80%" />
+  <p><em>Services Section</em></p>
+  
+  <img src="https://github.com/debashisparidame/debashisportfolio/blob/main/public/debashisportfolio%204.png" alt="Portfolio Section" width="80%" />
+  <p><em>Portfolio Section</em></p>
+  
+  <img src="https://github.com/debashisparidame/debashisportfolio/blob/main/public/debashisportfolio%205.png" alt="Contact Section" width="80%" />
+  <p><em>Contact Section</em></p>
+</div>
+
 ## ✨ Features
 
 - 🌓 **Dark/Light Mode** - Beautiful theme switching with smooth transitions
