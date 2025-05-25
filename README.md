@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Debashis Portfolio 🚀
 
-## Getting Started
+![Portfolio Preview](https://i.ibb.co/YNn9rcG/portfolio-preview.png)
 
-First, run the development server:
+## 🌐 [Live Demo](https://debashisportfolio.vercel.app/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+A modern, responsive portfolio website built with Next.js and TailwindCSS featuring a sleek design, dark/light mode, and smooth animations.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Features
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- 🌓 **Dark/Light Mode** - Beautiful theme switching with smooth transitions
+- 📱 **Fully Responsive** - Optimized for all device sizes
+- 🎬 **Smooth Animations** - Using Motion React for engaging interactions
+- 🎯 **Interactive Sections** - About, Services, Portfolio, and Contact
+- 🔄 **Dynamic Content** - Auto-typing role headings
+- 💌 **Working Contact Form** - Integrated with Web3Forms API
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Built With
 
-## Learn More
+- **Framework**: [Next.js 15](https://nextjs.org/) with App Router
+- **Styling**: [TailwindCSS 4](https://tailwindcss.com/)
+- **Animations**: [Motion React](https://www.framer.com/motion/)
+- **Fonts**: [Next/Font](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) with Outfit & Ovo
+- **Deployment**: [Vercel](https://vercel.com/)
 
-To learn more about Next.js, take a look at the following resources:
+## 📋 Sections
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Header** - Introduction with animated role typing
+- **About** - Personal information, skills, and technologies
+- **Services** - Featured services with interactive cards
+- **Portfolio** - Showcased projects with image galleries
+- **Contact** - Form with email integration
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🚀 Getting Started
 
-## Deploy on Vercel
+### Prerequisites
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Node.js 20.x or later
+- npm or yarn
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Installation
+
+1. Clone the repository
+   ```bash
+   git clone https://github.com/yourusername/debashisportfolio.git
+   cd debashisportfolio
+   ```
+2. Install dependencies
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+3. Run the development server
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
+
+## 📧 Contact
+
+For inquiries or collaborations, reach out via the contact form on the website or email me at [your-email@example.com](mailto:your-email@example.com).
