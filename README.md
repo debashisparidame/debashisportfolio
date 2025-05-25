@@ -10,7 +10,7 @@ A modern, responsive portfolio website built with Next.js and TailwindCSS featur
 
 <div align="center">
   <img src="https://github.com/debashisparidame/debashisportfolio/blob/main/public/debashisportfolio%201.png" alt="Home Page" width="80%" />
-  <p><em>Home Page with Dark Mode</em></p>
+  <p><em>Home Page</em></p>
   
   <img src="https://github.com/debashisparidame/debashisportfolio/blob/main/public/debashisportfolio%202.png" alt="About Section" width="80%" />
   <p><em>About Section</em></p>
